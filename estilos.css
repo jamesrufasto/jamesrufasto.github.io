@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:cyan;
+}
+
+header{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    padding-bottom: 30px;    
+}
+
+section{
+    height: 90vh;
+}
+
+section#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family:'Noto Serif', serif;
+}
+
+.imagen{
+    border: 2px solid blue;
+    justify-content: center;
+    margin: 20px;
+}
+
+section#experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.experiencia1{
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin:20px;
+    width: 600px;
+    justify-content: center;
+}
+
+.listadeaptitudes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aptitud{
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+section#contacto{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+
+.formulario{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 10px;
+    margin:20px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;      
+}
+
+.formulario_input{
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+}
+
+.formulario_textarea{
+    width: 350px;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.formulario_submit{
+    width: 50px;
+    margin-right: 175px;
+    cursor: pointer;
+}
+
+#demo{
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#boton{
+   
+    margin-left: 650px;
+    margin-top: 10px;
+margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
